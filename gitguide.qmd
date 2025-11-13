@@ -58,7 +58,7 @@ git add files/*.txt
 
 ## The git workflow
 
-A git project is really just a folder of files. Any folder on your computer can be turned into a git project, and git can track any kind of files (with some notable caveats, see XXX).
+A git project is really just a folder of files. Any folder on your computer can be turned into a git project, and git can track any kind of files (with some notable caveats, see "File types" below).
 
 **Working alone:**
 
@@ -77,7 +77,7 @@ In short:
 `Working directory` (merge) \<- `local repository` \<- (fetch) `Remote repository`
 
 ![](images/paste-17.png)
-
+ s
 ## Overview of git concepts
 
 ### Working directory
@@ -372,7 +372,7 @@ git merge origin/master
 
 Another merge example:
 
-![](images/paste-16.png){width="700"} \## git commands:
+![](images/paste-16.png){width="700"} 
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 ### git commands:
