@@ -77,7 +77,8 @@ In short:
 `Working directory` (merge) \<- `local repository` \<- (fetch) `Remote repository`
 
 ![](images/paste-17.png)
- s
+
+
 ## Overview of git concepts
 
 ### Working directory
