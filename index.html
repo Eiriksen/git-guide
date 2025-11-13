@@ -85,8 +85,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#git-introduction" id="toc-git-introduction" class="nav-link active" data-scroll-target="#git-introduction">Git introduction</a>
   <ul class="collapse">
   <li><a href="#brief-introduction" id="toc-brief-introduction" class="nav-link" data-scroll-target="#brief-introduction">Brief introduction</a></li>
-  <li><a href="#the-git-workflow" id="toc-the-git-workflow" class="nav-link" data-scroll-target="#the-git-workflow">The git workflow</a></li>
-  <li><a href="#overview-of-git-concepts" id="toc-overview-of-git-concepts" class="nav-link" data-scroll-target="#overview-of-git-concepts">Overview of git concepts</a>
+  <li><a href="#the-git-workflow" id="toc-the-git-workflow" class="nav-link" data-scroll-target="#the-git-workflow">The git workflow</a>
   <ul class="collapse">
   <li><a href="#working-directory" id="toc-working-directory" class="nav-link" data-scroll-target="#working-directory">Working directory</a></li>
   <li><a href="#repository" id="toc-repository" class="nav-link" data-scroll-target="#repository">Repository</a></li>
@@ -217,7 +216,7 @@ For example:</p>
 </section>
 <section id="the-git-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="the-git-workflow">The git workflow</h2>
-<p>A git project is really just a folder of files. Any folder on your computer can be turned into a git project, and git can track any kind of files (with some notable caveats, see XXX).</p>
+<p>A git project is really just a folder of files. Any folder on your computer can be turned into a git project, and git can track any kind of files (with some notable caveats, see “File types” below).</p>
 <p><strong>Working alone:</strong></p>
 <p>When you turn a folder (the <strong>working directory</strong>) into a git project, all that really changes it that your folder now also includes an (-often hidden) <code>.git</code> subfolder. This .git folder is your <strong>repository,</strong> and is where you will be storing your project history. After you have made edits to a file, you can <strong>commit</strong> these changes to your repository, creating a “save point” or “snapshot” of that file in that moment. You describe that commit with a commit message. Over time, these commits and commit messages becomes a linear log of your project progress.</p>
 <p><strong>Working with others:</strong></p>
@@ -226,10 +225,7 @@ For example:</p>
 <p>In short:</p>
 <p><code>Working directory</code> -&gt; (commit) <code>local repository</code> -&gt; (Push) <code>Remote repository</code></p>
 <p><code>Working directory</code> (merge) &lt;- <code>local repository</code> &lt;- (fetch) <code>Remote repository</code></p>
-<p><img src="images/paste-17.png" class="img-fluid"></p>
-</section>
-<section id="overview-of-git-concepts" class="level2">
-<h2 class="anchored" data-anchor-id="overview-of-git-concepts">Overview of git concepts</h2>
+<p><img src="images/paste-17.png" class="img-fluid"> s ## Overview of git concepts</p>
 <section id="working-directory" class="level3">
 <h3 class="anchored" data-anchor-id="working-directory">Working directory</h3>
 <p>The project folder on your computer with the files you are working on Is just a normal folder</p>
@@ -535,7 +531,7 @@ git commands:
 </div>
 </div>
 <p>Another merge example:</p>
-<p><img src="images/paste-16.png" class="img-fluid" width="700"> ## git commands:</p>
+<p><img src="images/paste-16.png" class="img-fluid" width="700"></p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
